@@ -41,7 +41,7 @@ uvicorn main:app --reload
 ```
 # Usage
 ```sh
-http://127.0.0.1:8000/download_forecast?sensor_id=BT_1011&sensor_id=acc_x
+http://127.0.0.1:8000/download_forecast?sensor_id=BT_1010&parameter=acc_x
 ```
 This will generate the forecast for the acc_x sensor data and return a downloadable CSV file named BT_1001_acc_x_forecast.csv.
 
